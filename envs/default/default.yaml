@@ -12,4 +12,11 @@ spec:
     directory:
       recurse: true
     path: envs/default
-    repoUrl:  
+    targetRevision: main
+    repoUrl: https://github.com/AlexGerus/argo-cd-envs
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
