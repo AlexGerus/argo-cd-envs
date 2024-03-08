@@ -13,7 +13,7 @@ spec:
       recurse: true
     path: envs/default
     targetRevision: main
-    repoUrl: https://github.com/AlexGerus/argo-cd-envs
+    repoURL: https://github.com/AlexGerus/argo-cd-envs
   syncPolicy:
     automated:
       prune: true
